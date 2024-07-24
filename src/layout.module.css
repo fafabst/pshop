@@ -1,0 +1,17 @@
+.linkWrapped {
+    /* text-decoration: none; */
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #bbb8b8;
+}
+
+.linkWrapped:hover {
+    color: rgb(94, 86, 86);
+
+}
+
+
+.containerWrapped {
+    border-bottom: 2px solid #bbb8b8;
+    height: 100%;
+}
