@@ -12,8 +12,6 @@ const Layout = ({ children }: Props) => {
     return (
         <>
             <Navbar expand="lg" >
-                <Container className={styles.containerWrapped}>
-
                     <Navbar.Collapse role="whatever-role" id="basic-navbar-nav">
                         <Nav >
                             <Link to="/" className={styles.linkWrapped} >
@@ -47,10 +45,12 @@ const Layout = ({ children }: Props) => {
                                 <Nav.Link href="#features" className={styles.linkWrapped}>Insert Pottery</Nav.Link>
                             </Link>
                         </Nav>
-                    </Navbar.Collapse>
-                </Container>
+                </Navbar.Collapse>
             </Navbar>
+            <Container className={styles.containerWrapped}>
             <main>{children}</main>
+
+            </Container>
         </>
     );
 }
